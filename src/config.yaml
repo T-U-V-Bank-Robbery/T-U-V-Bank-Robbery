@@ -1,0 +1,26 @@
+# src/config.yaml
+
+# AI Agent Configuration
+agent:
+  default_name: "Alpha"
+  default_mission: "Bank Heist"
+  default_difficulty: "medium"
+
+# Mission Settings
+missions:
+  - name: "Bank Heist"
+    difficulty: "medium"
+    rewards: 1000 HEIST tokens
+
+  - name: "Data Breach"
+    difficulty: "hard"
+    rewards: 2000 HEIST tokens
+
+  - name: "Artifact Recovery"
+    difficulty: "easy"
+    rewards: 500 HEIST tokens
+
+# Network Configuration
+network:
+  blockchain_node: "http://localhost:8545"
+  token_contract_address: "0x1234567890abcdef1234567890abcdef12345678"
