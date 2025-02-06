@@ -1,0 +1,19 @@
+# src/network/node_config.yaml
+
+# Blockchain Network Configuration
+blockchain:
+  network_name: "Ethereum Testnet"
+  rpc_url: "https://rinkeby.infura.io/v3/YOUR_INFURA_PROJECT_ID"
+  contract_address: "0x1234567890abcdef1234567890abcdef12345678"
+  gas_limit: 8000000
+  gas_price: "20 gwei"
+
+# Node Synchronization Settings
+node_sync:
+  interval_seconds: 10
+  retry_attempts: 5
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  output_file: "logs/network.log"
